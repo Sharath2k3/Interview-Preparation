@@ -12,7 +12,6 @@ def ancestor(root,target):
     if ancestor(root.left,target) or ancestor(root.right,target):
         print(data,end=" ")
         return True
-
     return False
 
 root = Node(1)
