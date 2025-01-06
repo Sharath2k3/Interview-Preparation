@@ -16,8 +16,8 @@ class Solution(object):
                 pre[i + 1] += 1
         print(pre)
         # Answer each query by calculating the difference between indices in the prefix array
-        x=[pre[r + 1] - pre[l] for l, r in queries]
-        print(x)
+        #x=[pre[r + 1] - pre[l] for l, r in queries]
+        #print(x)
         return [pre[r + 1] - pre[l] for l, r in queries]
         #return [pre[r + 1] - pre[l] for l, r in queries]
 
